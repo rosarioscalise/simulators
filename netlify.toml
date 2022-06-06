@@ -3,8 +3,8 @@ command = "rm -rf __obsidian __site && mkdir __obsidian && mv * __obsidian || tr
 publish = "public"
 
 [build.environment]
-LANDING_TITLE = "<span class='hvr-grow'>idea dev</span>"
-LANDING_DESCRIPTION = "<div style='margin-bottom: 1rem; margin-top: -3rem;'> Launch <div style='font-size: 4rem; display: inline-block' class='animate__animated animate__pulse animate__infinite '>🚀 </div> pad.</div>"
+LANDING_TITLE = "<span class='hvr-grow'>ideas</span>"
+LANDING_DESCRIPTION = "<div style='margin-bottom: 1rem; margin-top: -3rem;'> developed <div style='font-size: 4rem; display: inline-block' class='animate__animated animate__pulse animate__infinite '>🔨</div> here.</div>"
 LANDING_BUTTON = "Explore"
 # (Optional) Site description on landing page
 LANDING_DESCRIPTION = "RMS Idea Dev Space"
