@@ -3,14 +3,13 @@ command = "rm -rf __obsidian __site && mkdir __obsidian && mv * __obsidian || tr
 publish = "public"
 
 [build.environment]
-# (Optional) Text in landing page button
-LANDING_BUTTON = "Explore 🚀"
+LANDING_TITLE = "<span class='hvr-grow'>idea dev</span>"
+LANDING_DESCRIPTION = "<div style='margin-bottom: 1rem; margin-top: -3rem;'> Launch <div style='font-size: 4rem; display: inline-block' class='animate__animated animate__pulse animate__infinite '>🚀 </div> pad.</div>"
+LANDING_BUTTON = "Explore"
 # (Optional) Site description on landing page
 LANDING_DESCRIPTION = "RMS Idea Dev Space"
 # (REQUIRED) The Markdown page linked to landing page button (e.g. put home for ./home.md)
 LANDING_PAGE = "home"
-# (Optional) Site title on landing page
-LANDING_TITLE = "rms dev"
 PYTHON_VERSION = "3.8"
 # (REQUIRED) Site repo URL
 REPO_URL = "https://github.com/rosarioscalise/simulators"
