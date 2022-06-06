@@ -4,13 +4,13 @@ publish = "public"
 
 [build.environment]
 # (Optional) Text in landing page button
-LANDING_BUTTON = "Explore 🛩️"
+LANDING_BUTTON = "Explore 🚀"
 # (Optional) Site description on landing page
 LANDING_DESCRIPTION = "RMS Idea Dev Space"
 # (REQUIRED) The Markdown page linked to landing page button (e.g. put home for ./home.md)
 LANDING_PAGE = "home"
 # (Optional) Site title on landing page
-LANDING_TITLE = ""
+LANDING_TITLE = "rms dev"
 PYTHON_VERSION = "3.8"
 # (REQUIRED) Site repo URL
 REPO_URL = "https://github.com/rosarioscalise/simulators"
@@ -30,7 +30,7 @@ GANALYTICS = ""
 # (Optional, default true) Slugify URLs. Put "" to disable.
 SLUGIFY = "y"
 # (Optional, default true) Shows knowledge graph on home page. Put "" to disable.
-HOME_GRAPH = "y"
+HOME_GRAPH = ""
 # (Optional, default true) Shows knowledge graph on every page. Put "" to disable.
 PAGE_GRAPH = "y"
 # (Optional, default false) Whether sidebar sections should be collapsed by default.
