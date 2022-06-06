@@ -6,8 +6,6 @@ publish = "public"
 LANDING_TITLE = "<span class='hvr-grow'>ideas</span>"
 LANDING_DESCRIPTION = "<div style='margin-bottom: 1rem; margin-top: -3rem;'> developed <div style='font-size: 4rem; display: inline-block' class='animate__animated animate__pulse animate__infinite '>🔨</div> here.</div>"
 LANDING_BUTTON = "Explore"
-# (Optional) Site description on landing page
-LANDING_DESCRIPTION = "RMS Idea Dev Space"
 # (REQUIRED) The Markdown page linked to landing page button (e.g. put home for ./home.md)
 LANDING_PAGE = "home"
 PYTHON_VERSION = "3.8"
