@@ -5,7 +5,7 @@
 	- dynamics jacobians for model-based control
 	- physical property gradients for model fitting
 
-![[box_right_square.gif|300]] ![[geometry_learning_square.gif|300]]
+![[box.gif|300]] ![[geometry.gif|300]]
 *position gradient                                      recovering object geometry from trajectories*
 
 * Alternatives:

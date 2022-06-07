@@ -18,7 +18,9 @@ There are different solvers used to solve this, common ones include:
 This is often non-differentiable. Nimble makes this differentiable for DART.
 
 ### NCP
-![[cone_compare_square.gif|600]]
+
+
+![[cone.gif]]
 
 
 ### Spring-Mass Model (soft contact)
