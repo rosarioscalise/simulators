@@ -15,6 +15,9 @@ There are different solvers used to solve this, common ones include (iterative o
 - ISOR
 - Danitz
 
+#### Issues
+-  iterative methods can lead to the body rotating -> can lead to asymmetric result depending on starting position
+
 This is often non-differentiable. *Nimble* makes this differentiable for DART.
 
 ### NCP
@@ -25,7 +28,9 @@ This is often non-differentiable. *Nimble* makes this differentiable for DART.
 
 ![[Pasted image 20220607132129.png|600]]
 
-### Spring-Mass Model (soft contact)
+### Soft Contact (Spring-Mass Model)
+
+Note: is there a damping coeff?
 
 ### Issues:
 - experiences unphysical interpenetration

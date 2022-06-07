@@ -1,18 +1,20 @@
-| simulator   | year | application | integrator                 | state   | contact   | solver        | language | gradients         |
-| ----------- | ---- | ----------- | -------------------------- | ------- | --------- | ------------- | -------- | ----------------- |
-| MuJoCo(DM)  | 2015 | robotics    | implicit Euler/RK4         | minimal | soft      | Newton/PGS/CG | C        | finite-difference |
-| Drake       | 2019 | robotics    | implicit Euler/RADAU5      | minimal | soft/hard | LCP/Newton    | C++      | gradient-bundle   |
-| ODE         | 2001 | graphics    | implicit Euler             | maximal | soft/hard | LCP           | C++      |                   |
-| Bullet      | 2006 | graphics    | implicit Euler             | minimal | soft/hard | MLCP          | C/C++    | sub-gradient      |
-| DART        | 2012 | robotics    | implicit Euler/variational | minimal | hard      | LCP           | C++      | sub-gradient      |
-| ^ nimble    | 2021 | "           | "                          | "       | "         |               |          |                   |
-| Brax        | 2021 | graphics    | explicit Euler             | maximal | soft      | N/A           | Python   | sub-gradient      |
-| RaiSim      | -    | robotics    | implicit Eutler            | minimal | hard      | bisection     | C++      | -                 |
-| Dojo        | 2022 | robotics    | variational                | maximal | hard      | NCP           | julia    | smooth gradient   |
-| IsaacSim    | 2021 | robotics    | -                          | -       | -         | -             | C++      | -                 |
-| Meta Option | -    | -           | -                          | -       | -         | -             | -        | -                 |
+| simulator   | year | application | integrator                 | state   | contact   | friction solver| language | gradients         |
+| ----------- | ---- | ----------- | -------------------------- | ------- | --------- | -------------- | -------- | ----------------- |
+| MuJoCo(DM)  | 2015 | robotics    | implicit Euler/RK4         | minimal | soft      | Newton/PGS/CG | C         | finite-difference |
+| Drake       | 2019 | robotics    | implicit Euler/RADAU5      | minimal | soft/hard | LCP/Newton    | C++       | gradient-bundle   |
+| ODE         | 2001 | graphics    | implicit Euler             | maximal | soft/hard | LCP           | C++       |                   |
+| Bullet      | 2006 | graphics    | implicit Euler             | minimal | soft/hard | MLCP          | C/C++     | sub-gradient      |
+| DART        | 2012 | robotics    | implicit Euler/variational | minimal | hard      | LCP           | C++       | sub-gradient      |
+| ^ nimble    | 2021 | "           | "                          | "       | "         | diff LCP      |           |                   |
+| Brax        | 2021 | graphics    | explicit Euler             | maximal | soft      | N/A           | Python    | sub-gradient      |
+| RaiSim      | -    | robotics    | implicit Eutler            | minimal | hard      | bisection     | C++       | -                 |
+| Dojo        | 2022 | robotics    | variational                | maximal | hard      | NCP           | julia     | smooth gradient   |
+| IsaacSim    | 2021 | robotics    | -                          | -       | -         | -             | C++       | -                 |
+| Meta Option | -    | -           | -                          | -       | -         | -             | -         | -                 |
 
 ### Notes:
+Explicit euler takes system of equations and multiplies by dt
+Brax might not be good for long horizon tasks for this reason
 
 ## Less Feature Complete
 [ADD: Analytically Differentiable Dynamics for Multi-Body Systems with  Frictional Contact](https://arxiv.org/pdf/2007.00987.pdf)

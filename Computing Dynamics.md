@@ -1,6 +1,7 @@
 ## Forward Dynamics
 Given $\theta$, $\dot{\theta}$, $\tau$ -> Find $\ddot{\theta}$
 
+
 Can be solved using:
 1. Lagrangian Formulation
 2. Newton-Euler (explicit or implicit)
@@ -26,3 +27,5 @@ Given $\theta$, $\dot{\theta}$, $\ddot{\theta}$ -> Find $\tau$
 
 Variational Integrator Approach automatically conserves momentum and energy.
 ![[Pasted image 20220607132018.png|600]]
+
+Setting in which you're operating determines whether you care about this conservation of momentum feature or not.
