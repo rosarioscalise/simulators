@@ -5,8 +5,12 @@
 	- dynamics jacobians for model-based control
 	- physical property gradients for model fitting
 
-* Alternative is finite differencing 
-	* evaluating the forward simulation multiple times with small perturbations to the relevant parameters to approximate the relevant gradients
+![[box_right_square.gif|300]] ![[geometry_learning_square.gif|300]]
+*position gradient                                      recovering object geometry from trajectories*
+
+* Alternatives:
+	* Finite differencing: evaluating the forward simulation multiple times with small perturbations to the relevant parameters to approximate the relevant gradients
+	* Gradient-free: inefficient and approximate
 	
 ### Why avoid finite-differencing?
 1. the high computational burden of finite differencing when computing the gradient with respect to a large number of model/policy parameters
