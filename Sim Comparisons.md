@@ -12,6 +12,8 @@
 | IsaacSim    | 2021 | robotics    | -                          | -       | -         | -             | C++      | -                 |
 | Meta Option | -    | -           | -                          | -       | -         | -             | -        | -                 |
 
+### Notes:
+
 ## Less Feature Complete
 [ADD: Analytically Differentiable Dynamics for Multi-Body Systems with  Frictional Contact](https://arxiv.org/pdf/2007.00987.pdf)
 [A Differentiable Physics Engine for Deep Learning in Robotics](https://arxiv.org/pdf/1611.01652.pdf)

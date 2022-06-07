@@ -6,7 +6,7 @@
 	- physical property gradients for model fitting
 
 ![[box.gif|300]] ![[geometry.gif|300]]
-*position gradient                                      recovering object geometry from trajectories*
+
 
 * Alternatives:
 	* Finite differencing: evaluating the forward simulation multiple times with small perturbations to the relevant parameters to approximate the relevant gradients
@@ -14,7 +14,7 @@
 	
 ### Why avoid finite-differencing?
 1. the high computational burden of finite differencing when computing the gradient with respect to a large number of model/policy parameters
-2. the instability of numerical gradients over long time horizons, especially if contacts change over the course of a rollout
+2. the instability of numerical gradients over long time horizons, especially if contacts change over the course of a rollout (roundoff errors)
 
 ### Current Approach
 - Existing simulators simply add an analytical description of the LCP problem. Typically utilizing a library like pytorch that enables autograd.
