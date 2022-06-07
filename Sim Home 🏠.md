@@ -2,6 +2,6 @@
 
 ## Where to go from here?
 [[Differentiable Simulators]]
-[[Simulator Review]]
-[[Simulator Assumptions]]
+[[Sim TEMP]]
+[[Sim Assumptions]]
 
