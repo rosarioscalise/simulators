@@ -6,4 +6,15 @@
 [[Sim Assumptions]]
 [[Sim Comparisons]]
 
+## Subtasks
+[[Forward Dynamics]]
+[[Inverse Dynamics]]
+
+
+## Specific Needs
+[[Deformable and Soft]]
+
+
+
+
 
