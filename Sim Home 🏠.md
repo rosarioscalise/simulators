@@ -9,7 +9,7 @@
 ## Where to go from here?
 [[Differentiable Simulators]]
 [[Sim Assumptions]]
-[[Sim Comparisons]]
+[[Sim Comparison Table]]
 
 ## Subtasks | Formulation | Assumptions
 [[Computing Dynamics]] (Lagrangian Formulation, Newton-Euler)
