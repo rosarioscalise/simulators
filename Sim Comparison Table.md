@@ -11,7 +11,6 @@
 | Dojo        | 2022 | robotics    | variational                | maximal | hard      | NCP            | julia     | smooth gradient   |
 | IsaacSim    | 2021 | robotics    | -                          | -       | -         | -              | C++       | -                 |
 | Meta Option | -    | -           | -                          | -       | -         | -              | -         | -                 |
-
 ### Notes:
 Explicit euler takes system of equations and multiplies by dt
 Brax might not be good for long horizon tasks for this reason
