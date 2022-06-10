@@ -4,7 +4,9 @@
 	- policy gradients for control tasks
 	- dynamics jacobians for model-based control
 	- physical property gradients for model fitting
-	- other
+	- other cool things
+
+
 
 ![[box.gif|300]] ![[geometry.gif|300]]
 
